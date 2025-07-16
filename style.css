@@ -60,6 +60,9 @@
     display: flex;  
     border-radius: 4px;
 }
+.nav-search:hover{
+    border: 2px solid orange;
+}
 .search-select{
     background-color: #f3f3f3;
     width: 50px;
@@ -78,4 +81,33 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.select-lng{
+   height: 50;
+}
+.nav-signin{
+    height: 40px;
+    width: 115px;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.nav-order{
+    height: 40px;
+    width: 75px;
+    line-height: 1rem;
+    padding-top: 10px;
+    text-align: center;
+}
+.nav-cart{
+    display: flex;
+    width: 85px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-cart {
+    font-size: 35px;
 }
