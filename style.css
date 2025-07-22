@@ -24,7 +24,7 @@
     width: 100%;
 }
 .border{
-    border: 2px solid transparent;
+    border: 1.5px solid transparent;
 }
  .border:hover {
     border: 1.5px solid white;
@@ -110,4 +110,88 @@
 
 .nav-cart {
     font-size: 35px;
+}
+
+/* panel */
+
+.panel{
+     height: 40px;
+     background-color: #222f3d;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     color: white;
+}
+#panel-border{
+    border: 1.5px solid transparent;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px 4px 8px 4px;
+}
+#panel-border:hover{
+    border: 1.5px solid white;
+    border-radius: 5%;
+}
+
+.panel-menu{
+    width: 60px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    text-align: center;
+    font-weight: 700;
+}
+.panel-option{
+    width: 100%;
+}
+.panel-option a {
+    text-decoration: none;
+    font-size: 15px;
+}
+/* hero-section */
+.hero-section {
+    background-image: url("img/hero_image.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-message{
+    background-color: white;
+    color: #0f1111;
+    height: 40px;
+    width: 87%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.hero-message a {
+    text-decoration: none;
+}
+.hero-message a:hover{
+    text-decoration-line: line-through;
+}
+
+/* Shop-Sation */
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box {
+    /* border: 2px solid black; */
+    background-color: white;
+    height: 400px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box-img{
+    height: 350px;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 1rem;
 }
